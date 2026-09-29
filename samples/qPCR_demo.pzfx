@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GraphPadPrismFile PrismVersion="10.3.0.0" Version="10.30.0000" LastUsage="2026-09-29T13:27:16">
+<Created By="bio-research-agent" DateTime="2026-09-29T13:27:16"/>
+<RefNumbers>0</RefNumbers>
+<ErrorMessages/>
+<Sequence DataYFormat="replicates" DataXFormat="none">
+<SequenceItem RefNumber="0" ObjectType="Table"/>
+<SequenceItem RefNumber="0" ObjectType="Info"/>
+</Sequence>
+<Info ID="info0"><Title>Info</Title><Constants><Constant Name="Experiment Date" Value="2026-09-29" Type="DateTime"/></Constants></Info>
+<Table ID="table0" XFormat="none" YFormat="replicates" TableType="TwoWay" EVMapping="A">
+<Title>qPCR fold change (demo for Prism)</Title>
+<RowTitlesColumn Width="160"><Subcolumn Width="160"><Title> </Title></Subcolumn></RowTitlesColumn>
+<YColumn Width="110" Decimals="4" Subcolumns="3"><Title>Con</Title>
+<Subcolumn>
+<d>1.02</d>
+<d>0.98</d>
+</Subcolumn>
+<Subcolumn>
+<d>0.95</d>
+<d>1.03</d>
+</Subcolumn>
+<Subcolumn>
+<d>1.08</d>
+<d>1.01</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="110" Decimals="4" Subcolumns="3"><Title>LPS</Title>
+<Subcolumn>
+<d>4.4</d>
+<d>7.6</d>
+</Subcolumn>
+<Subcolumn>
+<d>4.7</d>
+<d>7.9</d>
+</Subcolumn>
+<Subcolumn>
+<d>4.2</d>
+<d>7.2</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="110" Decimals="4" Subcolumns="3"><Title>Treat</Title>
+<Subcolumn>
+<d>2.3</d>
+<d>3.3</d>
+</Subcolumn>
+<Subcolumn>
+<d>2.5</d>
+<d>3.1</d>
+</Subcolumn>
+<Subcolumn>
+<d>2.2</d>
+<d>3.5</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Graphs/>
+<Layouts/>
+<MasterLinks/>
+<Analyses/>
+<ManualTransforms/>
+</GraphPadPrismFile>

@@ -1,0 +1,14 @@
+{
+  "name": "bio-research-agent",
+  "version": "0.5.0",
+  "description": "生物医药科研助手：文献侦察兵 + 生信/网药对接执行器 + 生物医药数据库 MCP 工具（PubChem/ChEMBL/STRING/UniProt/OpenAlex/EuropePMC/OpenTargets）",
+  "author": { "name": "wty204326-ctrl" },
+  "skills": "./skills",
+  "commands": "./commands",
+  "mcpServers": {
+    "biomed": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/mcp/biomed-server.mjs"]
+    }
+  }
+}

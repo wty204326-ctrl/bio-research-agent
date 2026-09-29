@@ -1,0 +1,15 @@
+{
+  "name": "bio-research-agent-oss",
+  "plugins": [
+    {
+      "name": "bio-research-agent",
+      "source": "./",
+      "version": "0.5.0",
+      "description": "生物医药科研助手：文献/生信/网药/单细胞/PPI/湿实验定量(含PK)/绘图/法规/GCP + 14个数据库MCP工具",
+      "displayName": "Bio-Research Agent",
+      "displayName_i18n": { "zh-CN": "生物医药科研助手" },
+      "description_i18n": { "zh-CN": "生物医药科研助手：文献检索、网络药理学、分子对接、单细胞、WB/qPCR/ELISA/IHC/PK 定量、GraphPad 导出、GCP 法规解读等一条龙" },
+      "category": "productivity"
+    }
+  ]
+}
